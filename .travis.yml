@@ -2,3 +2,15 @@ language: java
 
 jdk:
   - oraclejdk8
+
+script:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn clean package
+  - mvn deploy
+
+notifications:
+  email:
+    recipients:
+      - 771902944@qq.com
+    on_success: never
+    on_failure: always
