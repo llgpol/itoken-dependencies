@@ -27,7 +27,7 @@
         <zipkin.version>2.10.1</zipkin.version>
         <admin.version>2.0.0</admin.version>
         <spring-boot-alibaba-druid.version>1.1.10</spring-boot-alibaba-druid.version>
-        <mysql.version>5.1.46</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <spring-boot-mapping.version>2.0.2</spring-boot-mapping.version>
         <spring-boot-pagehelper.version>1.2.5</spring-boot-pagehelper.version>
     </properties>
